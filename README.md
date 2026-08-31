@@ -1,25 +1,23 @@
-# Hi, I'm Dimitrios Panagiotis Emmanouilidis 👋
+# Dimitrios Panagiotis Emmanouilidis
 
-I am a Software Development graduate specializing in **MLOps, LLM System Orchestration, and Local Inference Optimization**. I focus on architecting multi-agent systems and deploying efficient AI infrastructures on consumer hardware.
+Computing graduate working on local LLM inference and the measurement of LLM-driven systems on constrained hardware.
 
-### 📄 Resumes & Academic CV
-Depending on why you are here, you can view my documentation below:
-* **[View my Academic CV (PDF)](./Emmanouilidis_Academic_CV_2026.pdf)** — *For MSc Admissions (Research, Thesis Methodologies, Coursework).*
-* **[View my Industry Resume (PDF)](./Emmanouilidis_Industry_Resume_2026.pdf)** — *For Tech Recruiters (ATS-optimized, Infrastructure & Architecture focus).*
+### Documents
 
-### 🛠️ Tech Stack & Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-* **AI & Orchestration:** LangGraph, Multi-Agent Systems, Local LLM Inference, RAG, Sensor Fusion.
-* **Infrastructure:** VRAM Management, Hardware Optimization, eGPU Configurations.
+- **[Academic CV (PDF)](https://github.com/dpemmanouilidis/dpemmanouilidis/blob/main/Emmanouilidis_Academic_CV_2026.pdf)** — for MSc admissions.
+- **[Industry Resume (PDF)](https://github.com/dpemmanouilidis/dpemmanouilidis/blob/main/Emmanouilidis_Industry_Resume_2026.pdf)** — for recruiters.
 
-### 🎯 Current Focus
-* Preparing for MSc programs in AI and Computer Science.
-* Architecting an offline, unified local LLM application for off-grid knowledge retrieval.
-* Pursuing AWS Machine Learning Engineer (MLA-C01) and Generative AI Developer (AIP-C01) certifications.
+### Current work
 
-### 📫 Connect with Me
-* **Email:** dpemmanouilidis@gmail.com
-* **LinkedIn:** [linkedin.com/in/dimitrios-panagiotis-emmanouilidis](https://www.linkedin.com/in/dimitrios-panagiotis-emmanouilidis-798365243)
+**[actuation-runner](https://github.com/dpemmanouilidis/actuation-runner)** — a benchmark measuring how often LLM-generated action payloads fail before reaching an actuator, across eight failure categories. Two 100-trial runs on a local quantised 9B model: 89/100 and 92/100 valid. Every failure across 200 trials was planner token-ceiling truncation. Apache 2.0.
+
+**Offline local inference and retrieval** — a local LLM application for off-grid knowledge retrieval, with a RAG pipeline over offline databases and no cloud API dependency.
+
+### Tools
+
+Python · Ollama · LangGraph · Docker · jsonschema · MCP
+
+### Contact
+
+- Email: dpemmanouilidis@gmail.com
+- LinkedIn: [dimitrios-panagiotis-emmanouilidis](https://www.linkedin.com/in/dimitrios-panagiotis-emmanouilidis-798365243)
