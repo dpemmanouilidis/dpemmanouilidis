@@ -1,23 +1,28 @@
-# Dimitrios Panagiotis Emmanouilidis
+# Hi, I'm Dimitrios Panagiotis Emmanouilidis 👋
 
-Computing graduate working on local LLM inference and the measurement of LLM-driven systems on constrained hardware.
+Software developer — AI engineering: local LLM inference, retrieval, evaluation.
+I build and measure LLM systems on constrained, consumer-grade hardware.
 
-### Documents
+### 📄 CV
 
-- **[Academic CV (PDF)](https://github.com/dpemmanouilidis/dpemmanouilidis/blob/main/Emmanouilidis_Academic_CV_2026.pdf)** — for MSc admissions.
-- **[Industry Resume (PDF)](https://github.com/dpemmanouilidis/dpemmanouilidis/blob/main/Emmanouilidis_Industry_Resume_2026.pdf)** — for recruiters.
+**[View my CV (PDF)](https://github.com/dpemmanouilidis/dpemmanouilidis/blob/main/Emmanouilidis_CV_2026.pdf)**
 
-### Current work
+### 🛠️ Tech Stack & Tools
 
-**[actuation-runner](https://github.com/dpemmanouilidis/actuation-runner)** — a benchmark measuring how often LLM-generated action payloads fail before reaching an actuator, across eight failure categories. Two 100-trial runs on a local quantised 9B model: 89/100 and 92/100 valid. Every failure across 200 trials was planner token-ceiling truncation. Apache 2.0.
+- **Languages:** Python, C++, Kotlin
+- **AI & Machine Learning:** Ollama, llama.cpp/GGUF, local LLM inference, quantised models, hybrid retrieval (dense + lexical), JSON Schema validation, evaluation harness design
+- **Platforms & Tooling:** Android (NDK, JNI, Gradle), Linux, Windows, Git, GPU/VRAM budgeting, cross-platform toolchain debugging
 
-**Offline local inference and retrieval** — a local LLM application for off-grid knowledge retrieval, with a RAG pipeline over offline databases and no cloud API dependency.
+### 🔬 Featured
 
-### Tools
+**[actuation-runner](https://github.com/dpemmanouilidis/actuation-runner)** — open-source benchmark measuring how often LLM-generated action payloads fail before reaching an actuator, classified across eight outcome categories. Two independent 100-trial runs on a local quantised 9B model: 89/100 and 92/100 valid. 45-test offline suite. Apache 2.0.
 
-Python · Ollama · LangGraph · Docker · jsonschema · MCP
+### 🎯 Current Focus
 
-### Contact
+- Open to AI engineering roles.
+- Offline on-device RAG application for Android — quantised LLM via llama.cpp, hybrid dense + BM25 retrieval, no network at query time. In development; walkthrough available on request.
 
-- Email: dpemmanouilidis@gmail.com
-- LinkedIn: [dimitrios-panagiotis-emmanouilidis](https://www.linkedin.com/in/dimitrios-panagiotis-emmanouilidis-798365243)
+### 📫 Connect with Me
+
+- **Email:** <dpemmanouilidis@gmail.com>
+- **LinkedIn:** [linkedin.com/in/dimitrios-panagiotis-emmanouilidis](https://www.linkedin.com/in/dimitrios-panagiotis-emmanouilidis-798365243)
