@@ -15,7 +15,7 @@ I build and measure LLM systems on constrained, consumer-grade hardware.
 
 ### 🔬 Featured
 
-**[casefile](https://github.com/dpemmanouilidis/casefile)** — self-hosted investigation pipeline where deterministic rules decide what gets flagged and a local LLM writes the case file under seven verification checks that reject anything it cannot evidence. Measured across 16 cases and four model configurations on a 12 GB card: a 9.7B model passed every check on the first attempt at Q4 and Q8, a 3B model managed 12%, citation precision 100% throughout. 143-test offline suite. MIT. [Write-up](https://github.com/dpemmanouilidis/casefile/blob/main/docs/writeup.md).
+**[casefile](https://github.com/dpemmanouilidis/casefile)** — self-hosted investigation pipeline where deterministic rules decide what gets flagged and a local LLM writes the case file under seven verification checks that reject anything it cannot evidence. Measured across 16 cases and four model configurations on a 12 GB card: a 9B model passed every check on the first attempt at Q4 and Q8, a 3B model managed 12%, citation precision 100% throughout. 143-test offline suite. MIT. [Write-up](https://github.com/dpemmanouilidis/casefile/blob/main/docs/writeup.md).
 
 **[actuation-runner](https://github.com/dpemmanouilidis/actuation-runner)** — open-source benchmark measuring how often LLM-generated action payloads fail before reaching an actuator, classified across eight outcome categories. Two independent 100-trial runs on a local quantised 9B model: 89/100 and 92/100 valid. 45-test offline suite. Apache 2.0.
 
